@@ -1,8 +1,13 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
-import BackGroud from "../images/holographic-background.webp"
+import HeroImage from "../images/Logobaru.png"
+import BackGroud1 from "../images/Gallery 1.png"
+import BackGroud2 from "../images/Gallery 2.png"
+import BackGroud3 from "../images/Gallery 3.png"
+import BackGroud4 from "../images/Gallery 4.png"
+import BackGroud5 from "../images/Gallery 5.png"
+import BackGroud6 from "../images/Gallery 6.png"
 
 const Gallery = () => {
   return (
@@ -11,16 +16,15 @@ const Gallery = () => {
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
-              GALLERY
+              JEJAK CERIA
             </h1>
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Holo Starter Theme
+              Kisah Pertumbuhan dan Kreasi Siswa.
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Selami berbagai momen berharga di SDN KAMPUNG BAMBU III. Galeri ini menangkap semangat belajar, keceriaan bermain, dan kebersamaan yang terjalin erat antara guru dan siswa.
+              Setiap foto adalah cerita tentang dedikasi, kreativitas, dan pertumbuhan tunas bangsa yang berakar kuat di lingkungan sekolah kami.
+              Kami mengajak Anda untuk melihat lebih dekat kehidupan aktif dan penuh warna di sini.
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
@@ -37,16 +41,16 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={BackGroud1}
                 loading="lazy"
-                alt="HeroImage"
+                alt="BackGroud1"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Clean Animations
+                Kegiatan Mengajar
               </span>
             </a>
 
@@ -55,16 +59,16 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={BackGroud2}
                 loading="lazy"
-                alt="HeroImage"
+                alt="BackGroud2"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Easy to use
+                Foto Gembira Sehabis Upacara
               </span>
             </a>
 
@@ -73,7 +77,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={BackGroud3}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -82,7 +86,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Responsive
+                Kegiatan Ulangan Anak anak 
               </span>
             </a>
 
@@ -91,7 +95,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={BackGroud4}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -100,7 +104,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Tailwind CSS
+                Quality Time Bersama Murid
               </span>
             </a>
             <a
@@ -108,7 +112,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={BackGroud5}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -117,7 +121,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                CMS Ready
+                Murid Murid Pulang Sekolah
               </span>
             </a>
 
@@ -126,7 +130,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={BackGroud6}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -135,7 +139,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Fast
+                Murid Murid Berangkat Sekolah
               </span>
             </a>
           </div>

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
-    <nav className="bg-transparent">
+    <nav className="fixed top-0 w-full bg-pink shadow-sm border-b-4 border-pink z-50">
       <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
@@ -12,8 +12,8 @@ const Navbar = () => {
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
             >
-              <span className="text-gradient bg-gradient-to-r from-pink to-purple font-semibold">
-                HOLO
+              <span className="text-gradient bg-gradient-to-r from-black to-white font-semibold">
+                MOM'S PANTRY'S
               </span>
             </a>
             <div className="hidden md:block">

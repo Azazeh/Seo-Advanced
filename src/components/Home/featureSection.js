@@ -2,35 +2,35 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import HeroImage from "../../images/Jajan.jpeg"
+import Image1 from "../../images/Risol.jpeg"
+import Image2 from "../../images/Lontong.jpeg"
+import Image3 from "../../images/Donat.jpeg"
 
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
+            <h3 className="text-black text-2xl">Akreditasi</h3>
+            <h4 className="mt-10 text-black  opacity-70 text-xl">A</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
+            <h3 className="text-white text-2xl">Metode Pembeljaran</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
+            <h3 className="text-white text-2xl">Praktikum</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
           <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
+            <h3 className="text-white text-2xl">Kurikulum</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
@@ -43,15 +43,14 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            <h2 className="text-black text-4xl font-semibold"></h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+              Macam Macam Aneka Jajanan Pasar
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Ada banyak aneka jajanan pasar yang biasa di jual belikan dalam pasar tradisional disini dan banyak juga yang kami jual disini. 
+              Lihat selengkapnya di bawah ini
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -91,7 +90,7 @@ const FeatureSection = () => {
         </div>
       </div>
 
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
@@ -133,45 +132,33 @@ const FeatureSection = () => {
             </p>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          LANDASAN RASA
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Warisan Manis Nusantara
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Jajanan pasar bukan sekadar pemuas lidah; ia adalah fondasi warisan kuliner yang kaya akan nilai sejarah dan filosofi. 
+          Kami percaya bahwa setiap jajanan, dari klepon hingga getuk, membawa kisah tentang bahan lokal dan kearifan proses pembuatan tradisional. 
+          Oleh karena itu, kami secara intensif mengintegrasikan empat pilar utama dalam menikmati jajanan pasar: Bahan Baku Berkualitas, Resep Otentik, Proses Pengolahan Higienis, dan Apresiasi Budaya
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          INOVASI RASA
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Kreativitas dan Adaptasi Jajanan
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Menghadapi semangat kuliner yang fleksibel dan adaptif terhadap perkembangan zaman, kami berkomitmen untuk menyediakan jajanan pasar yang tidak hanya otentik tetapi juga relevan dengan selera modern.
+          Kami mengintegrasikan teknik penyajian dan kemasan modern sebagai sarana untuk membuka wawasan global, sambil tetap mempertahankan esensi rasa dan bahan baku lokal.
+          Kami mendorong para pembuat jajanan pasar untuk berani bereksplorasi, berpikir kritis terhadap tren, dan menjadi pencipta rasa baru yang kreatif.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -179,7 +166,7 @@ const FeatureSection = () => {
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              See More
             </a>
           </div>
         </div>
@@ -202,20 +189,20 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-black text-2xl">Contoh</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Risol isi mayo pedas dengan daging asap</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
+            <h3 className="text-white text-2xl">Contoh</h3> 
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
+              Lontong isi sayuran atau nama lainnya rogut
             </h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
+            <h3 className="text-white text-2xl">Contoh</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
+              Aneka donat kentang dengan varian yang cukup banyak
             </h4>
           </div>
         </div>

@@ -20,44 +20,44 @@ const WorkPage = () => {
         </div>
       </Fade> */}
 
-      <Fade bottom cascade>
-        <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">95+</h4>
-          </div>
+        {/* <Fade bottom cascade>
+                <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
+                  <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+                    <h3 className="text-black text-2xl">Akreditasi</h3>
+                    <h4 className="mt-10 text-black  opacity-70 text-xl">A</h4>
+                  </div>
+        
+                  <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+                    <h3 className="text-white text-2xl">Metode Pembeljaran</h3>
+                    <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+                  </div>
+                  <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+                    <h3 className="text-white text-2xl">Praktikum</h3>
+                    <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+                  </div>
+                  <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
+                    <h3 className="text-white text-2xl">Kurikulum</h3>
+                    <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+                  </div>
+                </div>
+              </Fade> */}
+       {/* <p class="text-black opacity-70 font-normal mt-3 text-justify -ml--100">
+          SDN KAMPUNG BAMBU III adalah institusi pendidikan dasar yang berkomitmen menciptakan lulusan yang tidak hanya unggul dalam akademis, tetapi juga memiliki karakter kuat dan adaptif. Terinspirasi oleh lingkungan 'Kampung Bambu', kami menanamkan filosofi bambu dalam proses belajar mengajar: tumbuh tegak, fleksibel menghadapi perubahan, dan solidaritas yang erat antar sesama.
+          Kami mengintegrasikan nilai-nilai Pancasila sebagai inti kurikulum karakter, memastikan setiap siswa memahami pentingnya persatuan, kemanusiaan, dan keadilan.
+          Dengan dukungan lingkungan belajar yang tenang, kami siap membekali putra-putri bangsa dengan pengetahuan dan integritas yang dibutuhkan untuk masa depan.  
+       </p> */}
+      
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade>
-
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Time to lock new speeds
+      <div className="mt-10 px-8">  
+        <h2 className="text-black text-4xl font-semibold">KEMAJUAN KULINER</h2>
+        <h3 className="text-black text-3xl font-bold xxs:text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-gradient bg-gradient-to-r from-pink to-purple">
+          Membentuk Cita Rasa dengan Kecepatan Inovasi.
         </h3>
 
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+        <p className="text-black opacity-70 font-normal mt-3 text-3xl xxs:text-3xl xs:text-3xl sm:text-3xl md:text-3xl lg:text-lg">
+          Kualitas jajanan pasar kami diukur dari seberapa cepat kami mampu beradaptasi dengan tren rasa dan menguasai teknik pengolahan baru.
+          Kami menerapkan metode produksi yang dinamis dan higienis, sejalan dengan sifat kuliner Nusantara yang kaya namun tetap luwes untuk dimodifikasi.
+          Dengan fokus pada penggunaan bahan baku lokal dan integrasi teknik pengemasan modern, kami memastikan bahwa setiap produk tidak hanya menyerap resep kuno, tetapi juga membangun citra fundamental untuk bersaing dan memimpin di era digital.
         </p>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import Image3 from "../../images/holographic-background-1.webp"
+import Image3 from "../../images/Jajanan2.png"
 
 const AboutHeader = () => {
   return (
@@ -11,12 +11,11 @@ const AboutHeader = () => {
           <img alt="Image" src={Image3}></img>
         </div>
         <div className="mt-10 px-8">
-          <h1 className="font-bold text-xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
-            What is Holo?
+          <h1 className="font-bold text-5xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
+            Visi & Filosofi
           </h1>
-          <h2 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-6xl">
-            A visually captivating and lightning-fast open-source theme crafted
-            on the Gatsby framework.
+          <h2 className="text-black text-4xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-2xl lg:text-3xl">
+         Menekankan komitmen terhadap penggunaan bahan-bahan berkualitas tinggi yang bersumber dari petani dan produsen lokal.
           </h2>
         </div>
       </div>
