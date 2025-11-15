@@ -2,12 +2,12 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 import HeroImage from "../images/Logobaru.png"
-import BackGroud1 from "../images/Gallery 1.png"
-import BackGroud2 from "../images/Gallery 2.png"
-import BackGroud3 from "../images/Gallery 3.png"
-import BackGroud4 from "../images/Gallery 4.png"
-import BackGroud5 from "../images/Gallery 5.png"
-import BackGroud6 from "../images/Gallery 6.png"
+import BackGroud1 from "../images/Risol.jpeg"
+import BackGroud2 from "../images/Jajanan2.png"
+import BackGroud3 from "../images/Jajanan 2.jpeg"
+import BackGroud4 from "../images/Donat.jpeg"
+import BackGroud5 from "../images/Lontong.jpeg"
+import BackGroud6 from "../images/Jajanan3.jpeg"
 
 const Gallery = () => {
   return (
@@ -16,15 +16,15 @@ const Gallery = () => {
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
-              JEJAK CERIA
+              JEJAK RASA
             </h1>
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Kisah Pertumbuhan dan Kreasi Siswa.
+              Kisah Cita Rasa dan Warisan Kuliner.
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Selami berbagai momen berharga di SDN KAMPUNG BAMBU III. Galeri ini menangkap semangat belajar, keceriaan bermain, dan kebersamaan yang terjalin erat antara guru dan siswa.
-              Setiap foto adalah cerita tentang dedikasi, kreativitas, dan pertumbuhan tunas bangsa yang berakar kuat di lingkungan sekolah kami.
-              Kami mengajak Anda untuk melihat lebih dekat kehidupan aktif dan penuh warna di sini.
+              Selami berbagai momen berharga dari dapur Nusantara. Galeri ini menangkap semangat berkreasi, keceriaan warna-warni, dan kebersamaan yang terjalin erat dalam setiap sajian jajanan pasar.
+              Setiap foto adalah cerita tentang dedikasi pengrajin rasa, kekayaan bahan lokal, dan pertumbuhan inovasi yang berakar kuat pada tradisi kita.
+              Kami mengajak Anda untuk melihat lebih dekat kehidupan aktif dan penuh warna di balik lezatnya Jajanan Pasar.
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
@@ -50,7 +50,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Kegiatan Mengajar
+                Risol Mayo
               </span>
             </a>
 
@@ -68,7 +68,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Foto Gembira Sehabis Upacara
+                Aneka Jajanan Pasar Tradisional
               </span>
             </a>
 
@@ -86,7 +86,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Kegiatan Ulangan Anak anak 
+                Pesanan Berbagai Aneka Macam Jajanan Pasar
               </span>
             </a>
 
@@ -104,7 +104,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Quality Time Bersama Murid
+                Donat Kentang
               </span>
             </a>
             <a
@@ -121,7 +121,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Murid Murid Pulang Sekolah
+                Lontong Isi
               </span>
             </a>
 
@@ -139,7 +139,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Murid Murid Berangkat Sekolah
+                Aneka Goreng Gorengan
               </span>
             </a>
           </div>
