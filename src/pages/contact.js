@@ -5,7 +5,7 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/Contact.png"
+import image from "../images/Contactnew.png"
 
 const Contact = () => {
   return (
@@ -18,12 +18,12 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
+            <h1 className="text-3xl text-white">CONTACT MOM'S</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+              MOM'S PANTRY'S
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
+              Silahkan Hubungi Dan Isi Formulir Untuk Pemesanan
             </p>
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
@@ -53,7 +53,7 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="tel:+#">(+62) 8954 1488 1330</a>
                       </p>
                     </div>
                   </div>
@@ -83,8 +83,8 @@ const Contact = () => {
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                        <a href="mailto:mompantryhome@gmail.com?subject=Contact Mom's for help.">
+                          mompantryhome@gmail.com
                         </a>
                       </p>
                     </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Location
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Jabodetabek</p>
                     </div>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Opening Hours
                       </p>
-                      <p className="text-neutral-500 mb-2">24/7</p>
+                      <p className="text-neutral-500 mb-2">06:00 Pagi - 15:00 Sore</p>
                     </div>
                   </div>
                 </div>
@@ -156,6 +156,7 @@ const Contact = () => {
                       placeholder="Your Name"
                       type="text"
                       name="name"
+                      style={{color:"white"}}
                     ></Input>
                   </label>
                 </div>

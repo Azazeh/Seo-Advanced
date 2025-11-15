@@ -18,7 +18,7 @@ const Gallery = () => {
             <h1 className="text-black opacity-70 text-4xl font-semibold">
               JEJAK RASA
             </h1>
-            <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+            <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-3xl lg:text-4xl">
               Kisah Cita Rasa dan Warisan Kuliner.
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">

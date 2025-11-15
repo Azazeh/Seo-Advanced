@@ -19,7 +19,7 @@ const Footer = () => {
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
-                  &copy; {new Date().getFullYear()} Hak Cipta SDN KAMPUNG BAMBU III.
+                  &copy; {new Date().getFullYear()} Hak Cipta MOM'S PANTRY'S.
                 </span>
               </p>
               {/* <div className="text-black font-bold block-inline">

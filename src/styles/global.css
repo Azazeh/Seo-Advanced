@@ -7,6 +7,7 @@ p, input, textarea {
   font-family: "Noto Serif", sans-serif;
   font-size: 1rem !important;
   line-height: 1.5rem !important;
+  input::placeholder { color: white; };
 }
 
 
