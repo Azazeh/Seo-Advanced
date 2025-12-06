@@ -1,109 +1,82 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+
+import React, { useState } from "react";
+import { Link } from "gatsby";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(false)
+  const [open, setOpen] = useState(false);
+
+  const menuItems = [
+    { label: "Home", to: "/" },
+    { label: "About", to: "/about" },
+    { label: "Gallery", to: "/gallery" },
+    { label: "Blog", to: "/blog" },
+    { label: "Contact", to: "/contact" },
+  ];
+
   return (
-    <nav className="fixed top-0 w-full bg-pink shadow-sm border-b-4 border-pink z-50">
-      <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
-        <div className="flex items-center justify-between h-16">
-          <div className="w-full justify-between flex items-center">
-            <a
-              className="text-black flex-shrink-0 font-montserrat font-semibold"
-              href="/"
-            >
-              <span className="text-purple font-semibold text-2xl font-semibold">
-                MOM'S PANTRY
-              </span>
-            </a>
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-center space-x-4">
-                <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/"
-                >
-                  Home
-                </Link>
-                <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/about"
-                >
-                  About
-                </Link>
+    <nav className="fixed top-0 left-0 w-full bg-[#d1a98b]/90 backdrop-blur-md border-b border-[#b48a6c] shadow-sm z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-5 py-4">
 
-                <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/gallery"
-                >
-                  Gallery
-                </Link>
-                <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/blog"
-                >
-                  Blog
-                </Link>
-                <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/contact"
-                >
-                  Contact
-                </Link>
-                <div className="items-center">
-                  <a
-                    href="tel:#"
-                    className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-black rounded-lg border border-purple hover:text-white border-black  hover:bg-purple"
-                  >
-                    Call Us Now
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* Brand */}
+        <Link to="/" className="text-2xl font-semibold text-[#5A2E20] tracking-wider">
+          MOM'S PANTRY
+        </Link>
 
-          <div className="-mr-2 flex md:hidden">
-            <button
-              id="al"
-              aria-label="Menu"
-              onClick={() => setOpenMenu(!openMenu)}
-              className="text-gray-800 dark:text-white hover:text-black-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+        {/* Desktop Menu */}
+        <div className="hidden md:flex items-center space-x-6">
+          {menuItems.map((item) => (
+            <Link
+              key={item.to}
+              to={item.to}
+              className="text-[#3b2a21] opacity-80 hover:opacity-100 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-[#5A2E20] hover:after:w-full after:transition-all after:duration-300"
             >
-              <svg
-                width="20"
-                height="20"
-                fill="black"
-                className="h-8 w-8"
-                viewBox="0 0 1792 1792"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"></path>
-              </svg>
-            </button>
-          </div>
+              {item.label}
+            </Link>
+          ))}
+          <a
+            href="tel:#"
+            className="ml-4 border border-[#5A2E20] px-4 py-2 rounded-lg text-[#5A2E20] hover:bg-[#5A2E20] hover:text-white transition duration-300"
+          >
+            Call Us
+          </a>
         </div>
+
+        {/* Mobile Button */}
+        <button
+          onClick={() => setOpen(!open)}
+          className="md:hidden p-2 focus:outline-none"
+        >
+          <svg width="26" height="26" fill="#5A2E20" viewBox="0 0 448 512">
+            <path d="M0 96c0-13 11-24 24-24h400c13 0 24 11 24 24s-11 24-24 
+            24H24C11 120 0 109 0 96zm0 160c0-13 11-24 24-24h400c13 0 
+            24 11 24 24s-11 24-24 24H24c-13 0-24-11-24-24zm424 
+            184H24c-13 0-24-11-24-24s11-24 24-24h400c13 0 24 11 
+            24 24s-11 24-24 24z"/>
+          </svg>
+        </button>
       </div>
-      {openMenu && (
-  <div className="md:hidden bg-pink bg-opacity-95 shadow-lg border-t border-purple">
-    <div className="flex flex-col items-start px-6 py-4 space-y-3">
-      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/">Home</Link>
-      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/about">About</Link>
-      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/gallery">Gallery</Link>
-      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/blog">Blog</Link>
-      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/contact">Contact</Link>
 
-      <a
-        href="tel:#"
-        className="mt-4 w-full text-center py-2 border border-purple bg-purple text-white rounded hover:bg-transparent hover:text-purple transition"
-      >
-        Call Us Now
-      </a>
-    </div>
-  </div>
-)}
-
+      {/* Mobile Slide Menu */}
+      <div className={`md:hidden bg-[#d1a98b] transition-all overflow-hidden ${open ? "max-h-[400px] py-3" : "max-h-0"} px-5`}>
+        {menuItems.map((item) => (
+          <Link
+            key={item.to}
+            to={item.to}
+            onClick={() => setOpen(false)}
+            className="block text-[#3b2a21] py-3 border-b border-[#b48a6c] last:border-none"
+          >
+            {item.label}
+          </Link>
+        ))}
+        <a
+          href="tel:#"
+          className="mt-4 block text-center border border-[#5A2E20] px-4 py-2 rounded-lg text-[#5A2E20] hover:bg-[#5A2E20] hover:text-white transition duration-300"
+        >
+          Call Us
+        </a>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar
