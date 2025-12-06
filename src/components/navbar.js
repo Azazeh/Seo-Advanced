@@ -12,8 +12,8 @@ const Navbar = () => {
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
             >
-              <span className="text-gradient bg-gradient-to-r from-black to-white font-semibold">
-                MOM'S PANTRY'S
+              <span className="text-purple font-semibold text-2xl font-semibold">
+                MOM'S PANTRY
               </span>
             </a>
             <div className="hidden md:block">
@@ -84,50 +84,24 @@ const Navbar = () => {
         </div>
       </div>
       {openMenu && (
-        <div className="transition duration-1000 ease-in-out md:hidden">
-          <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 transition duration-1000 ease-in-out">
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/"
-            >
-              Home
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/about"
-            >
-              About
-            </a>
+  <div className="md:hidden bg-pink bg-opacity-95 shadow-lg border-t border-purple">
+    <div className="flex flex-col items-start px-6 py-4 space-y-3">
+      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/">Home</Link>
+      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/about">About</Link>
+      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/gallery">Gallery</Link>
+      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/blog">Blog</Link>
+      <Link className="text-black opacity-70 hover:opacity-100 text-md font-medium" to="/contact">Contact</Link>
 
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/gallery"
-            >
-              Gallery
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/blog"
-            >
-              Blog
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/contact"
-            >
-              Contact
-            </a>
-            <div className="items-center mt-20 py-3">
-              <a
-                href="tel:#"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
-              >
-                Call Us Now
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
+      <a
+        href="tel:#"
+        className="mt-4 w-full text-center py-2 border border-purple bg-purple text-white rounded hover:bg-transparent hover:text-purple transition"
+      >
+        Call Us Now
+      </a>
+    </div>
+  </div>
+)}
+
     </nav>
   )
 }
