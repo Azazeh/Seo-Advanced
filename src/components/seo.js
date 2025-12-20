@@ -25,6 +25,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const siteKeywords = site.siteMetadata.keywords
 
   return (
     <Helmet
@@ -39,6 +40,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `description`,
+          content: siteKeywords,
+        },
+        {  
           property: `og:title`,
           content: title,
         },
@@ -75,6 +80,7 @@ Seo.defaultProps = {
   lang: `en-AU`,
   meta: [],
   description: ``,
+  keywords:[],
 }
 
 Seo.propTypes = {
@@ -82,6 +88,7 @@ Seo.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  keywords: PropTypes.arrayOf(PropTypes.string),
 }
 
 export default Seo
