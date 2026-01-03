@@ -26,7 +26,9 @@ const Header = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
                 <a
-                  href="/contact"
+                  href="https://wa.me/62895414881330?text=Halo%20saya%20ingin%20bertanya%20tentang%20produk%20Mom's%20Pantry"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Contact Us
@@ -49,7 +51,9 @@ const Header = () => {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="/about"
+                  href="https://wa.me/62895414881330?text=Halo%20saya%20ingin%20bertanya%20tentang%20produk%20Mom's%20Pantry"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
                   Get To Know Us
