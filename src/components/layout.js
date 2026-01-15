@@ -7,7 +7,9 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Navbar />
+      <main className="pt-20">
       {children}
+      </main>
       <Footer />
       <WhatsAppButton />
     </div>
