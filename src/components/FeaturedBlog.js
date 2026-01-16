@@ -103,6 +103,26 @@ const FeaturedBlog = () => {
               </a>
             </div>
           </div>
+          {/* ================= GOOGLE MAPS ================= */}
+          <div className="mt-20">
+            <h2 className="text-black text-4xl font-semibold mb-6 text-center">
+              Lokasi Kami
+            </h2>
+
+            <div className="w-full rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.879715187661!2d106.6006951592488!3d-6.25379079622776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc436ba5a751%3A0x800393b01af32a14!2sJl.%20Wijaya%20Kusuma%206%20Blok%20RD3%20No.10%2C%20RT.4%2FRW.8%2C%20Bojong%20Nangka%2C%20Kecamatan%20Kelapa%20Dua%2C%20Kabupaten%20Tangerang%2C%20Banten%2015810!5e0!3m2!1sid!2sid!4v1768566023512!5m2!1sid!2sid"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Maps Location"
+              />
+            </div>
+          </div>
+          {/* =============== END MAPS ================= */}
         </div>
       </div>
     </Fade>
