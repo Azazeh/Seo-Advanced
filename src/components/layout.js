@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Navbar />
-      <main className="pt-20">
+      <main className="pt-18">
       {children}
       </main>
       <Footer />
